@@ -1,7 +1,7 @@
 ﻿ var Player : Transform;
- var MoveSpeed = 4;
- var MaxDist = 10;
- var MinDist = 5;
+ var MoveSpeed = 4.0;
+ var MaxDist = 10.0;
+ var MinDist = 5.0;
  
  
  
@@ -11,20 +11,19 @@
  
  }
  
- function Update () 
- {
-     transform.LookAt(Player);
-     
-     if(Vector3.Distance(transform.position,Player.position) >= MinDist){
-     
-          transform.position += transform.forward*MoveSpeed*Time.deltaTime;
+ function Update() {
+	transform.LookAt(Player);
+	
+	if(Vector3.Distance(transform.position,Player.position) >= MinDist){
+		
+		transform.position += transform.forward*MoveSpeed*Time.deltaTime;
  
-           
-           
-          if(Vector3.Distance(transform.position,Player.position) <= MaxDist)
-              {
-                 //Here Call any function U want Like Shoot at here or something
-    } 
-    
-    }
+		if(Vector3.Distance(transform.position,Player.position) <= MaxDist) {
+		
+		//This area can be used to configure actions when player is in range.
+		
+		}
+	
+	}
+ 
  }
