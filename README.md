@@ -12,5 +12,9 @@ Categories:
 ###Camera
 
 ###Character Control
+[topdowncontrols.js](link) - A script used to control the 3D Character Controller script, configured for use in top-down gameplay.
 
 ###Sound
+
+###Misc.
+[generateobjects.js](link) - A simple script for generating a large number of objects on load.
