@@ -1,4 +1,4 @@
-# Unity Starters
+# Unity Awesomeness
 A collection of utility scripts for Unity 5.
 
 ###AI
