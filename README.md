@@ -17,3 +17,5 @@ A collection of utility scripts for Unity 5.
 [generateobjects.js](https://github.com/pflannery111/unity-starters/blob/master/Misc/generateobjects.js) - A simple script for generating a large number of objects on load. **[2D / 3D]**
 
 [randomsizeonload.js](https://raw.githubusercontent.com/pflannery111/unity-starters/master/Misc/randomsizeonload.js) - Simple script (often used in tandem with generateobjects.js) that randomly sizes/places object on awake. **[2D / 3D]**
+
+[destroytaggedobjects.js](https://raw.githubusercontent.com/patflannery/unity-awesomeness/master/Misc/destroytaggedobjects.js) - Simple "destroy object on collision if tagged" script. **[2D / 3D]**
