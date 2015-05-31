@@ -8,14 +8,14 @@ Unity is a flexible and powerful development platform for creating multi-platfor
 
 ## Table of contents
 
-- [Artificial intelligence](#artificial-intelligence)
+- [Artificial Intelligence](#artificial-intelligence)
 - [Animation](#animation)
 	- [Camera](#camera)
 	- [Character Control](#character-ontrol)
 - [Sound](#sound)
 	- [Miscellaneous](#miscellaneous)
 
-## Artificial intelligence [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
+## Artificial Intelligence [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Name | Description | 2D | 3D
 :-- | :-- | --- | ---
