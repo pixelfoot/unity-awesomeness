@@ -19,7 +19,7 @@ Unity is a flexible and powerful development platform for creating multi-platfor
 ## Artificial intelligence [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 Name | Description | 2D | 3D
---- | --- | --- | ---
+:-- | :-- | --- | ---
 [`simplefollow.js`](Scripts/simplefollow.js) | A simple “follow the player’s transform” AI script. | :white_check_mark: | :white_check_mark:
 
 ## Animation [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -27,13 +27,13 @@ Name | Description | 2D | 3D
 ### Camera
 
 Name | Description | 2D | 3D
---- | --- | --- | ---
+:-- | :-- | --- | ---
 [`smoothfollow2d.js`](Camera/smoothfollow2d.js) | A two-axis smooth follow camera script, can be used for (X,Z) or (X,Y) movement. | :white_check_mark: | :white_check_mark:
 
 ### Character Control
 
 Name | Description | 2D | 3D
---- | --- | --- | ---
+:-- | :-- | --- | ---
 [`topdowncontrols.js`](Character Control/topdowncontrols.js) | A script used to control the 3D Character Controller script, configured for use in top-down gameplay. | | :white_check_mark:
 
 ## Sound [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
@@ -41,7 +41,7 @@ Name | Description | 2D | 3D
 ### Miscellaneous
 
 Name | Description | 2D | 3D
---- | --- | --- | ---
+:-- | :-- | --- | ---
 [`generateobjects.js`](Misc/generateobjects.js) | A simple script for generating a large number of objects on load. | :white_check_mark: | :white_check_mark:
 [`randomsizeonload.js`](Misc/randomsizeonload.js) | Simple script (often used in tandem with generateobjects.js) that randomly sizes/places object on awake. | :white_check_mark: | :white_check_mark:
 [`destroytaggedobjects.js`](Misc/destroytaggedobjects.js) | Simple “destroy object on collision if tagged” script. | :white_check_mark: | :white_check_mark:
