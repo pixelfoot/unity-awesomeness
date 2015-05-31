@@ -19,7 +19,7 @@ Unity is a flexible and powerful development platform for creating multi-platfor
 
 Name | Description | 2D | 3D
 :-- | :-- | --- | ---
-[`simplefollow.js`](Scripts/simplefollow.js) | A simple “follow the player’s transform” AI script. | :white_check_mark: | :white_check_mark:
+[`simplefollow.js`](AI/Scripts/simplefollow.js) | A simple “follow the player’s transform” AI script. | :white_check_mark: | :white_check_mark:
 
 ## Animation [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
