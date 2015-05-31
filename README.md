@@ -16,11 +16,11 @@ Unity is a flexible and powerful development platform for creating multi-platfor
 	- [Miscellaneous](#miscellaneous)
 - [LEGAL](#legal)
 
-## Artificial intelligence [:point_up:](#table-of-contents)
+## Artificial intelligence [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 * [`simplefollow.js`](Scripts/simplefollow.js) - A simple “follow the player’s transform” AI script. **[2D / 3D]**
 
-## Animation [:point_up:](#table-of-contents)
+## Animation [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 ### Camera
 
@@ -30,7 +30,7 @@ Unity is a flexible and powerful development platform for creating multi-platfor
 
 * [`topdowncontrols.js`](Character Control/topdowncontrols.js) - A script used to control the 3D Character Controller script, configured for use in top-down gameplay. **[3D]**
 
-## Sound [:point_up:](#table-of-contents)
+## Sound [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
 ### Miscellaneous
 
