@@ -14,7 +14,6 @@ Unity is a flexible and powerful development platform for creating multi-platfor
 	- [Character Control](#character-ontrol)
 - [Sound](#sound)
 	- [Miscellaneous](#miscellaneous)
-- [LEGAL](#legal)
 
 ## Artificial intelligence [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
@@ -45,4 +44,3 @@ Name | Description | 2D | 3D
 [`generateobjects.js`](Misc/generateobjects.js) | A simple script for generating a large number of objects on load. | :white_check_mark: | :white_check_mark:
 [`randomsizeonload.js`](Misc/randomsizeonload.js) | Simple script (often used in tandem with generateobjects.js) that randomly sizes/places object on awake. | :white_check_mark: | :white_check_mark:
 [`destroytaggedobjects.js`](Misc/destroytaggedobjects.js) | Simple “destroy object on collision if tagged” script. | :white_check_mark: | :white_check_mark:
-
