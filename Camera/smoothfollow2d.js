@@ -1,36 +1,37 @@
-//Configured by default for top-down camera (X and Z axis). See comments below to change for (X,Y) camera.
-
 #pragma strict
-
-var target: Transform;
+enum axis {XZ, XY}
+var target : Transform;
+var Axis: axis;
 var smoothTime = 0.3;
-private
-var thisTransform: Transform;
-private
-var velocity: Vector3;
+private var thisTransform : Transform;
+private var velocity : Vector3;
 
 
 
 function Start() {
-
-    thisTransform = transform;
+	
+	thisTransform = transform;
 
 }
 
 function Update() {
 
-    //X Axis Movement
+	if (Axis == axis.XZ) {	
+	
+	thisTransform.position.x = Mathf.SmoothDamp( thisTransform.position.x, target.position.x, velocity.x, smoothTime);
 
-    thisTransform.position.x = Mathf.SmoothDamp(thisTransform.position.x, target.position.x, velocity.x, smoothTime);
+	thisTransform.position.z = Mathf.SmoothDamp( thisTransform.position.z, target.position.z, velocity.z, smoothTime);
+
+}
 
 
-    //Z Axis Movement
+if (Axis == axis.XY) {
 
-    thisTransform.position.z = Mathf.SmoothDamp(thisTransform.position.z, target.position.z, velocity.z, smoothTime);
+	thisTransform.position.x = Mathf.SmoothDamp( thisTransform.position.x, target.position.x, velocity.x, smoothTime);
+
+	thisTransform.position.y = Mathf.SmoothDamp(thisTransform.position.y, target.position.y, velocity.y, smoothTime);
 
 
-    //Y Axis Movement - Be sure to comment out Z axis when using.
-
-    //thisTransform.position.y = Mathf.SmoothDamp(thisTransform.position.y, target.position.y, velocity.y, smoothTime);
+}
 
 }
