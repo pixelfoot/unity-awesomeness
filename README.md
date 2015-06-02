@@ -28,6 +28,7 @@ Name | Description | 2D | 3D
 Name | Description | 2D | 3D
 :-- | :-- | --- | ---
 [`smoothfollow2d.js`](Camera/smoothfollow2d.js) | A two-axis smooth follow camera script, can be used for (X,Z) or (X,Y) movement. | :white_check_mark: | :white_check_mark:
+[FreeFlightCamera.js](Camera/FreeFlightCamera.js) | Fly through the scene using <kbd>WSAD</kbd> (or arrows) and mouse. | | :white_check_mark:
 
 ### Character Control
 
