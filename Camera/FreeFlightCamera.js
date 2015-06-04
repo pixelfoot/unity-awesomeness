@@ -27,6 +27,7 @@ class FreeFlightCamera extends MonoBehaviour {
 		var strafe:float;
 		var speed:float;
 		var trans:Vector3;
+		var gravity = 8;
 		
 		forward = Input.GetAxis('Vertical');
 		strafe = Input.GetAxis('Horizontal');
@@ -61,6 +62,10 @@ class FreeFlightCamera extends MonoBehaviour {
 			gameObject.transform.localPosition += gameObject.transform.localRotation * trans;
 			
 		}
+		
+		// Gravity:
+		
+		gameObject.transform.localPosition += -gravity * trans * Time.deltaTime;
 		
 	}
 	
