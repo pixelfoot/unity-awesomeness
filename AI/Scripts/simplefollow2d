@@ -1,0 +1,28 @@
+//----------------------------------------------------------------------
+//
+// Visit the unity-awesomeness repo at:
+// github.com/patflannery/unity-awesomeness
+//
+//----------------------------------------------------------------------
+//
+//Name: Simple Follow AI Script - Top Down
+//
+//Description: When attached to a game object, it will follow the "player" object along the (X,Z) axis.
+//
+//----------------------------------------------------------------------
+
+var player : Transform;
+var speed = 2.0;
+
+function Start() {
+
+}
+
+
+function Update() {
+
+var gohere = player.position; 
+
+transform.position += (gohere - transform.position).normalized * speed;
+
+}
