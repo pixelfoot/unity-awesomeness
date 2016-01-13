@@ -36,6 +36,7 @@ Name | Description | 2D | 3D
 Name | Description | 2D | 3D
 :-- | :-- | --- | ---
 [`topdowncontrols.js`](Character Control/topdowncontrols.js) | A script used to control the 3D Character Controller script, configured for use in top-down gameplay. | | :white_check_mark:
+[`sidescrollcontrols.js`](Character Control/sidescrollcontrols.js) | A script used to control the 3D Character Controller script, configured for use in sidescrolling gameplay. | | :white_check_mark:
 
 ## Sound [<img width="32" height="32" align="right" src="https://assets-cdn.github.com/images/icons/emoji/unicode/261d.png" class="emoji" title="TOC">](#table-of-contents)
 
